@@ -1,6 +1,7 @@
-import os
-from math import log10, ceil
 import argparse
+from math import log10, ceil
+import os
+
 
 parser = argparse.ArgumentParser(description='Renombrado de ficheros')
 parser.add_argument('-p', '--path',
